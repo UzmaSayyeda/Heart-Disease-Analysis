@@ -41,8 +41,9 @@ The attributes of the data set are as follows:
     - HeartDisease: output class [1: heart disease, 0: Normal]  
 2. Next we will look at the shape and information of our dataset.
     - Our dataset consists of 918 rows and 12 columns.
-    - Here is what our data info looks like: 
-    ![Data Info](./images/Screenshot%202023-09-15%20145049.png)  
+    - Here is what our data info looks like:  
+
+![Data Info](./images/Screenshot%202023-09-15%20145049.png)  
 
 ### Step 3: Data cleaning and preprocessing  
 1. Moving on, we will check for out null values and duplicated values.
@@ -51,12 +52,12 @@ The attributes of the data set are as follows:
 4. Since serum cholesterol is a significant to our analysis, we can drop the rows with 0 values. Same with `RestingBP`.
 
 ### Step 4: Descriptive Statistics  
-Now that our dataset is clean, we will get into some statistical analysis.
-1. Here is the summary statistics of our data set:  
+Now that our dataset is clean, we will get into some statistical analysis.  
 
+1. Here is the summary statistics of our data set:  
 ![Summary Statistics](./images/summary_stats.png)  
-        - From the above image we can note deduce that the average age of our dataset is 53 with a median of 54 and a standard deviation of 9.5. We can also see that the youngest person from our dataset is 28 and the oldest person is 77. 
-        - Similarly we can look at other features of our dataset and note their statistical significance.  
+    - From the above image we can note deduce that the average age of our dataset is 53 with a median of 54 and a standard deviation of 9.5. We can also see that the youngest person from our dataset is 28 and the oldest person is 77. 
+    - Similarly we can look at other features of our dataset and note their statistical significance.  
 
 2. Now lets look at the correlation between our features:   
 ![Correlation](./images/correlation.png)  
