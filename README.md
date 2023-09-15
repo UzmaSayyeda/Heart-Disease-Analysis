@@ -81,4 +81,24 @@ Now lets look at some visualizations from our dataset.
     - The normal range for serum cholesterol is less than 200 mg/dl, borderline high is between 200 to 239 mg/dl and high is above 240 mg/dl  
     [Source]("https://www.hopkinsmedicine.org/health/treatment-tests-and-therapies/lipid-panel#:~:text=Here%20are%20the%20ranges%20for,or%20above%20240%20mg%2FdL")  
     - In our distribution plot, the peak is at around 200 mg/dl which indicates a normal range.
-    - Those who have a serum cholesterol higher than 200 mg/dl which from our distribution plot is a small number of people, they are at risk for heart disease.
+    - Those who have a serum cholesterol higher than 200 mg/dl which from our distribution plot is a small number of people, they are at risk for heart disease.  
+5. Lets look at how many people in our dataset have heart diseases and how many don't.  
+    ![heart disease pie chart](./images/pie_chart.png)  
+    - 52.28% don't have any heart disease and 47.72% have heart diseases.  
+6. Further lets look at gender distribution between people with heart disease and those without.  
+![gender distribution](./images/gender_dist.png)  
+    - As we can see that the number of male is higher than that of female hence men are more at greater risk of heart disease.
+
+7. Lastly lets look at some box plots for serum cholesterol and old peak.  
+![cholesterol](./images/choles_gender_boxplot.png)
+![old peak](./images/old_peak_gender_boxplot.png)
+
+    - In the first boxplot for cholesterol people with no heart disease have a lower median than those with heart disease but its evident that females with heart disease have the highest median.
+    - As for the old peak, people with heart disease have a higher variability than those with no heart disease. Females have a lower median than males.  
+
+### Conclusion
+
+After analyzing our data we can conclude the following  
+1. Males have a higher risk for heart diseases.  
+2. Cholesterol is a risk factor, with a correlation coefficient of 0.1.  
+3. Old peak is also high in correlation, with a correlation coefficient of 0.5   
